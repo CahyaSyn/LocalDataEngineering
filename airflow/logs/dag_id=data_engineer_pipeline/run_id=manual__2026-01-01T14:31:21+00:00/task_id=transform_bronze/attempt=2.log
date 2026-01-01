@@ -1,0 +1,11 @@
+{"timestamp":"2026-01-01T14:32:25.134141Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-01-01T14:32:25.134857Z","level":"info","event":"Filling up the DagBag from /home/cahya/Documents/PROJECT/LocalDataEngineer/airflow/dags/de_pipeline_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-01T14:32:25.179200Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-01-01T14:32:25.179360Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-01-01T14:32:25.179527Z","level":"info","event":"Current task name:transform_bronze","logger":"task.stdout"}
+{"timestamp":"2026-01-01T14:32:25.179631Z","level":"info","event":"Dag name:data_engineer_pipeline","logger":"task.stdout"}
+{"timestamp":"2026-01-01T14:32:25.203254Z","level":"info","event":"BRONZE incremental transform completed","logger":"task.stdout"}
+{"timestamp":"2026-01-01T14:32:25.203194Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":217}
+{"timestamp":"2026-01-01T14:32:25.230964Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-01-01T14:32:25.231128Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-01-01T14:32:25.231196Z","level":"info","event":"Task operator:<Task(PythonOperator): transform_bronze>","logger":"task.stdout"}

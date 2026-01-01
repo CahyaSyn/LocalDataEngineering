@@ -1,0 +1,11 @@
+{"timestamp":"2026-01-01T13:52:21.978081Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-01-01T13:52:21.978873Z","level":"info","event":"Filling up the DagBag from /home/cahya/Documents/PROJECT/LocalDataEngineer/airflow/dags/de_pipeline_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-01T13:52:22.048508Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-01-01T13:52:22.048653Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-01-01T13:52:22.048757Z","level":"info","event":"Current task name:transform_gold","logger":"task.stdout"}
+{"timestamp":"2026-01-01T13:52:22.048811Z","level":"info","event":"Dag name:data_engineer_pipeline","logger":"task.stdout"}
+{"timestamp":"2026-01-01T13:52:22.071967Z","level":"info","event":"GOLD transform completed","logger":"task.stdout"}
+{"timestamp":"2026-01-01T13:52:22.071975Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":217}
+{"timestamp":"2026-01-01T13:52:22.105725Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-01-01T13:52:22.105865Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-01-01T13:52:22.106027Z","level":"info","event":"Task operator:<Task(PythonOperator): transform_gold>","logger":"task.stdout"}
