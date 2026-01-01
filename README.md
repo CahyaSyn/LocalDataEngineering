@@ -129,11 +129,14 @@ Mengimplementasikan SQL-based assertion
 
 ### ⏱️ Orchestration with Airflow
 
-#### Menjalankan Airflow(Linux)
+#### Menjalankan Airflow(Linux) - Pastikan constraint airflow sudah diinstal dengan benar
 ```text
+export AIRFLOW_HOME=~/airflow
 airflow db migrate
 airflow standalone
 ```
+- Filter tags "data-engineer"
+- Triger dags
 
 #### Fitur DAG
 
